@@ -1,0 +1,91 @@
+{
+  "upgradesCost" : {
+    "damage" : {
+      "value" : [ 0, 100, 300, 600, 1200, 2400, 4800, 8400, 12000, 15600, 19200, 22800 ],
+      "resourceType" : "ore"
+    },
+    "attack" : {
+      "value" : [ 0, 100, 300, 600, 1200, 2400, 4800, 8400, 12000, 15600, 19200, 22800 ],
+      "resourceType" : "crops"
+    },
+    "health" : {
+      "value" : [ 0, 100, 300, 600, 1200, 2400, 4800, 8400, 12000, 15600, 19200, 22800 ],
+      "resourceType" : "wood"
+    },
+    "defence": {
+      "value" : [ 0, 100, 300, 600, 1200, 2400, 4800, 8400, 12000, 15600, 19200, 22800 ],
+      "resourceType" : "fish"
+    }
+  },
+  "upgradeBaseStats" : {
+    "damage" : {
+      "min" : [ 1000, 1400, 1800, 2200, 2600, 3000, 3400, 3800, 4200, 4600, 5000, 5400 ],
+      "max" : [ 1500, 2100, 2700, 3300, 3900, 4500, 5100, 5700, 6300, 6900, 7500, 8100 ]
+    },
+    "attack" : [ 0.5, 0.8, 1.0, 1.3, 1.6, 2.0, 2.5, 3.0, 3.6, 3.8, 4.2, 4.7 ],
+    "health" : [ 300000, 450000, 600000, 750000, 960000, 1200000, 1500000, 1860000, 2220000, 2580000, 2940000, 3300000 ],
+    "defence": [ 10, 55, 62.5, 70, 75, 79, 82, 84, 86, 88, 90 ]
+  },
+  "largerResourceStorage" : {
+    "maxLevel" : 6,
+    "cost" : [ 0, 400, 800, 2000, 5000, 16000, 48000 ],
+    "resourceType" : "emeralds",
+    "value" : [ 1, 2, 4, 8, 15, 34, 80 ]
+  },
+  "largerEmeraldsStorage" : {
+    "maxLevel" : 6,
+    "cost" : [ 0, 200, 400, 1000, 2500, 8000, 24000 ],
+    "resourceType" : "wood",
+    "value" : [ 1, 2, 4, 8, 15, 34, 80 ]
+  },
+  "efficientResource" : {
+    "maxLevel" : 6,
+    "cost" : [ 0,6000, 12000, 24000, 48000, 96000, 192000 ],
+    "resourceType" : "emeralds",
+    "value" : [ 1, 1.5, 2, 2.5, 3, 3.5, 4 ]
+  },
+  "efficientEmeralds" : {
+    "maxLevel" : 3,
+    "cost" : [ 0, 2000, 8000, 32000 ],
+    "resourceType" : "ore",
+    "value" : [ 1, 1.35, 2, 4 ]
+  },
+  "resourceRate" : {
+    "maxLevel" : 3,
+    "cost" : [ 0, 6000, 18000, 32000 ],
+    "resourceType" : "emeralds",
+    "value" : [ 1, 1.33, 2, 4 ]
+  },
+  "emeraldsRate" : {
+    "maxLevel" : 3,
+    "cost" : [ 0, 2000, 8000, 32000 ],
+    "resourceType" : "crops",
+    "value" : [ 1, 1.33, 2, 4 ]
+  },
+  "strongerMinions" : {
+    "maxLevel" : 4,
+    "cost" : [ 0, 200, 400, 800, 1600  ],
+    "resourceType" : "wood"
+  },
+  "multi" : {
+    "maxLevel" : 1,
+    "cost" : [ 0, 4800  ],
+    "resourceType" : "fish"
+  },
+  "aura" : {
+    "maxLevel" : 3,
+    "cost" : [ 0, 800, 1600, 3200  ],
+    "resourceType" : "crops"
+  },
+  "volley" : {
+    "maxLevel" : 3,
+    "cost" : [ 0, 200, 400, 800 ],
+    "resourceType" : "ore"
+  },
+  "upgradeMultiplier" : {
+    "damage" : [ 1, 1.4, 1.8, 2.2, 2.6, 3.0, 3.4, 3.8, 4.2, 4.6, 5.0, 5.4 ],
+    "attack" : [ 1, 1.5, 2, 2.5, 3.2, 4, 5, 6, 7.2, 7.6, 8.4, 9.4 ],
+    "health" : [ 1, 1.5, 2, 2.5, 3.2, 4, 5, 6.2, 7.4, 8.6, 9.8, 11 ],
+    "defence": [ 1, 4, 5.5, 6.25, 7, 7.5, 7.9, 8.2, 8.4, 8.6, 8.8, 9 ]
+  }
+}
